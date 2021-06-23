@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 
 function Nav() {
     const [click, setClick] = useState(false);
@@ -7,12 +8,18 @@ function Nav() {
 
     return (
         <div className="navbar">
-            <div className="logo">{'<Allan />'}</div>
+            <Link className="links" to='/'><div className="logo">{'<Allan />'}</div></Link>
             <div className={click ? "menu active" : "menu"}>
                 <ul className="navvs">
-                    <li onClick={closeMobileMenu}>About</li>
-                    <li onClick={closeMobileMenu}>Projects</li>
-                    <li onClick={closeMobileMenu}>Contact</li>
+                    <Link className="links" to="/about">
+                        <li onClick={closeMobileMenu}>About</li>
+                    </Link>
+                    <Link className="links" to="/project">
+                        <li onClick={closeMobileMenu}>Projects</li>
+                    </Link>
+                    <Link className="links" to="/contact">
+                        <li onClick={closeMobileMenu}>Contact</li>
+                    </Link>
                     <li onClick={closeMobileMenu}>Resume</li>
                 </ul>
                 <div className="socials">

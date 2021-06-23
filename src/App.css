@@ -24,12 +24,20 @@ ul{
 }
 li, .logo{
   margin: 0.5rem;
+  cursor: pointer;
 }
 .menu{
   display: flex;
 }
 .socials{
   margin-left: 1.3rem;
+}
+.links{
+  color: #fff;
+  text-decoration: none;
+}
+.links:focus{
+  color: #7ee8fa;
 }
 
 /* home component */

@@ -1,5 +1,5 @@
 import React from 'react'
-import Hello from '../images/undraw_Hello_re_3evm.svg'
+import Hello from '../images/undraw_Hello_re_3evm.svg';
 
 
 function Home() {
