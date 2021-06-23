@@ -32,7 +32,7 @@ li, .logo{
 .socials{
   margin-left: 1.3rem;
 }
-.links{
+.links, a{
   color: #fff;
   text-decoration: none;
 }

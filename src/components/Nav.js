@@ -24,9 +24,15 @@ function Nav() {
                 </ul>
                 <div className="socials">
                     <ul>
-                        <li onClick={closeMobileMenu}><i className="fab fa-github"></i></li>
-                        <li onClick={closeMobileMenu}><i className="fab fa-twitter"></i></li>
-                        <li onClick={closeMobileMenu}><i className="fab fa-linkedin-in"></i></li>
+                        <li onClick={closeMobileMenu}>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/Allan-1">
+                        <i className="fab fa-github"></i></a></li>
+                        <li onClick={closeMobileMenu}> 
+                            <a target="_blank" rel="noreferrer" href="https://twitter.com/a0x001">
+                        <i className="fab fa-twitter"></i></a></li>
+                        <li onClick={closeMobileMenu}> 
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/allan-maina-ab78011aa/">
+                        <i className="fab fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
             </div>
