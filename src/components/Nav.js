@@ -20,13 +20,13 @@ function Nav() {
                     <Link className="links" to="/contact">
                         <li onClick={closeMobileMenu}>Contact</li>
                     </Link>
-                    <li onClick={closeMobileMenu}>Resume</li>
+                    <li className="resume" onClick={closeMobileMenu}>Resume</li>
                 </ul>
                 <div className="socials">
                     <ul>
                     <li onClick={closeMobileMenu}> 
                             <a target="_blank" rel="noreferrer" href="mailto:amuturi01@gmail.com">
-                        <i class="fas fa-envelope"></i></a></li>
+                        <i className="fas fa-envelope"></i></a></li>
                         <li onClick={closeMobileMenu}>
                             <a target="_blank" rel="noreferrer" href="https://github.com/Allan-1">
                         <i className="fab fa-github"></i></a></li>

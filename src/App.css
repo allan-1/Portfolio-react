@@ -7,6 +7,7 @@
 }
 .App{
   background-color: #111;
+  min-height: 100vh;
 }
 /* nav component */
 .navbar{
@@ -39,13 +40,22 @@ li, .logo{
 .links:focus{
   color: #7ee8fa;
 }
+.resume{
+  margin-top: 0;
+  padding: 0.5rem;
+  border: 1px solid #75b3be;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  color: #7ee8fa;
+}
 
 /* home component */
 .home{
-  min-height: 90.2vh;
   color: #ffff;
   display: flex;
   justify-content: space-between;
+  z-index: 0;
 }
 .main{
   margin: 20vh 0 0 5rem;;
@@ -58,7 +68,7 @@ li, .logo{
   bottom: 10vh;
   object-fit: contain;
 }
-.intro .text, .intro2 .text{
+.intro .text, .intro2 .text, .Bottom .free .txthead{
   font-family: 'Lobster Two', cursive;
   font-size: 4rem;
   color: #fff;
@@ -71,10 +81,91 @@ li, .logo{
 .intro2 .text{
   font-size: 2.5rem;
 }
+.tagline{
+  margin-top: 1.3rem;
+  color: rgb(168, 158, 158);
+  font-size: 1.2rem;
+}
+.button{
+  margin-top: 1.4rem;
+  padding: 0.8rem;
+  border: 1px solid #75b3be;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #2d3638c2;
+  transition: all 0.3s ease-in-out;
+}
+.button a{
+  color: #75b3be;
+}
 /* mobile */
 .mobile-menu{
   display: none;
 }
+
+/* about component */
+.About{
+  margin: 10vh 5vh;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.imageme img{
+  object-fit: contain;
+  border-radius: 8px;
+}
+.abouttext{
+  margin: 0 3rem;
+}
+.abouttext .headtext{
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+.abouttext .details, .abouttext .more{
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+.abouttext .techstacks .itro{
+  margin-bottom: 0.7rem;
+}
+.abouttext .techstacks .techs{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 50%;
+}
+.abouttext .techstacks .techs .row div{
+  line-height: 1.4rem;
+}
+.abouttext .techstacks .techs i{
+  color: #7ee8fa;
+}
+
+/* bottomabout */
+.Bottom{
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Bottom .free .txthead{
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+}
+.Bottom .free .txt{
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.Bottom .free .txt a{
+  text-decoration: underline #eec0c6 4px;
+}
+
 /* media queries for nav and home components */
 @media screen and (max-width: 600px) {
   /* navbar */
@@ -116,9 +207,26 @@ li, .logo{
     font-size: 2.5rem;
   }
   .main{
-    margin: 20vh 0 0 2rem
+    margin: 10vh 0 0 2rem
   }
   .image{
     width: 100%;
+  }
+  /* about */
+  .About{
+    display: block;
+    margin: 5vh 1vh;
+  }
+  .imageme img{
+    width: 100%;
+  }
+  .abouttext{
+    margin: 0 2rem;
+  }
+  .abouttext .techstacks .techs{
+    width: 100%;
+  }
+  .button{
+    padding: 0.7rem;
   }
 }

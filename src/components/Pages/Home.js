@@ -16,6 +16,12 @@ function Home() {
                         A Software Developer
                     </div>
                 </div>
+                <div className="tagline">
+                    I enjoy bulding things for the web and mobile
+                </div>
+                <div className="button">
+                    <a href="mailo:amuturi01@gmail.com">Get In Touch</a>
+                </div>
             </div>
             <img className="image" src={Hello} alt="Hello" />
         </div>
