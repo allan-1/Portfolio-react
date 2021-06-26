@@ -37,6 +37,9 @@ li, .logo{
   color: #fff;
   text-decoration: none;
 }
+.links:hover{
+  color: #7ee8fa;
+}
 .links:focus{
   color: #7ee8fa;
 }
@@ -164,6 +167,15 @@ li, .logo{
 }
 .Bottom .free .txt a{
   text-decoration: underline #eec0c6 4px;
+}
+
+/* project */
+.Project, .Contact{
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 /* media queries for nav and home components */
