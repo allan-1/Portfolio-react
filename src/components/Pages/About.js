@@ -4,7 +4,8 @@ import BottomAbout from '../BottomAbout'
 
 function About() {
     return (
-        <div>
+        <div> 
+            <div className="aboutmeintro">A short introduction about me</div>            
             <div className="About">
             <div className="imageme">
                 <img src={Allan} alt="Allan" height='300' />

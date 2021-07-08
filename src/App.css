@@ -125,6 +125,12 @@ li, .logo{
 .abouttext{
   margin: 0 3rem;
 }
+.aboutmeintro{
+  margin: 0 5vh;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Lobster Two', cursive;
+}
 .abouttext .headtext{
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
@@ -170,7 +176,63 @@ li, .logo{
 }
 
 /* project */
-.Project, .Contact{
+.Project{
+  font-size: 2rem;
+  color: #fff;
+}
+.Project .head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Project .head .projectsIntro{
+  color: grey;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+.Project .container{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+.Project .container .projs{
+  margin: 2rem 3rem;
+  padding-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 3px 3px 10px #383737d5;
+}
+.Project .container .projs img{
+  object-fit: contain;
+  width: 100%;
+}
+.Project .container .projs .title{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.Project .container .projs .projinfo{
+  font-size: 1rem;
+  color: grey;
+  padding: 0.2rem 0.5rem;
+}
+.Project a{
+  margin: 0.6rem;
+  border: 1px solid #75b3be;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.Project a:hover{
+  background-color: #75b3be;
+  transition: all 0.5s ease;
+}
+.Project .moreprojs{
+  font-size: 1.5rem;
+  text-align: center;
+  color: grey;
+  margin: 1rem;
+  line-height: 2;
+}
+/* conatcts */
+.Contact{
   color: #fff;
   font-size: 2rem;
   display: flex;
