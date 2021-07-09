@@ -303,4 +303,11 @@ li, .logo{
   .button{
     padding: 0.7rem;
   }
+  /* Project */
+  .Project .container{
+    display: block;
+  }
+  .Project .head .projectsIntro{
+    text-align: center;
+  }
 }
