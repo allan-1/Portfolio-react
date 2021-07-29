@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+import {FaGithubSquare, FaLinkedin, FaTwitterSquare, FaEnvelope} from 'react-icons/fa';
 
 function Nav() {
     const [click, setClick] = useState(false);
@@ -26,16 +27,16 @@ function Nav() {
                     <ul>
                     <li onClick={closeMobileMenu}> 
                             <a target="_blank" rel="noreferrer" href="mailto:amuturi01@gmail.com">
-                        <i className="fas fa-envelope"></i></a></li>
+                        <FaEnvelope /> </a></li>
                         <li onClick={closeMobileMenu}>
                             <a target="_blank" rel="noreferrer" href="https://github.com/Allan-1">
-                        <i className="fab fa-github"></i></a></li>
+                        <FaGithubSquare /></a></li>
                         <li onClick={closeMobileMenu}> 
                             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/allan-maina-ab78011aa/">
-                        <i className="fab fa-linkedin-in"></i></a></li>
+                       <FaLinkedin /></a></li>
                         <li onClick={closeMobileMenu}> 
                             <a target="_blank" rel="noreferrer" href="https://twitter.com/a0x001">
-                        <i className="fab fa-twitter"></i></a></li>
+                        <FaTwitterSquare /></a></li>
                     </ul>
                 </div>
             </div>
