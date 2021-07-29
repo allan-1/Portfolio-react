@@ -6,6 +6,7 @@ import recipe from '../images/recipe.png';
 import calculator from '../images/calculator.png';
 import ipadress from '../images/ipaddress.png';
 import BottomAbout from '../BottomAbout'
+import {FaGithub} from 'react-icons/fa'
 
 function Project() {
     return (
@@ -100,7 +101,7 @@ function Project() {
             </div>
             <div className="moreprojs">
                 <div>For more You can view my github</div>
-                <div><a href="https://github.com/Allan-1"><i className="fab fa-github"></i> Github</a></div>
+                <div><a href="https://github.com/Allan-1"><FaGithub /> Github</a></div>
             </div>
             <BottomAbout/>
         </div>
