@@ -5,6 +5,7 @@ import boran from '../images/boranafrica.png';
 import recipe from '../images/recipe.png';
 import calculator from '../images/calculator.png';
 import ipadress from '../images/ipaddress.png';
+import meety from '../images/meety.png';
 import BottomAbout from '../BottomAbout'
 import {FaGithub} from 'react-icons/fa'
 
@@ -30,6 +31,20 @@ function Project() {
                     </div>
                     <div className="projlinks">
                         <a href="https://allanmovies.vercel.app/">Live</a>
+                    </div>
+                </div>
+                <div className="projs">
+                    <div className="img">
+                        <img src={meety} alt="meety"/>
+                    </div>
+                    <div className="title">
+                        Meety
+                    </div>
+                    <div className="projinfo">
+                        A google clone app made with webrtc and socket.io to video call.
+                    </div>
+                    <div className="links">
+                    <a href="https://github.com/Allan-1/Google-meet-clone" target='_blank' rel="noreferrer">Github</a>
                     </div>
                 </div>
                 <div className="projs">
