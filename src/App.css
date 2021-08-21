@@ -239,6 +239,33 @@ li, .logo{
   justify-content: center;
   align-self: center;
 }
+.contactimg img{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}
+.name, .prof{
+  text-align: center;
+}
+.name{
+  font-weight: 800;
+}
+.prof{
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.conlinks{
+  display: flex;
+}
+.conlinks div{
+  margin: 5px;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.conlinks div a{
+  color: rgb(0, 204, 255);
+  text-decoration: underline;
+}
 
 /* media queries for nav and home components */
 @media screen and (max-width: 600px) {

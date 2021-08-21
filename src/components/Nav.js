@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
-import {FaGithubSquare, FaLinkedin, FaTwitterSquare, FaEnvelope} from 'react-icons/fa';
+import {FaGithubSquare, FaLinkedin, FaTwitterSquare, FaEnvelope, FaTimes, FaBars} from 'react-icons/fa';
 
 function Nav() {
     const [click, setClick] = useState(false);
@@ -41,7 +41,7 @@ function Nav() {
                 </div>
             </div>
             <div className="mobile-menu" onClick={handleClick}>
-                {click ? (<i className="fas fa-times"></i>) : (<i className="fas fa-bars"></i>)}
+                {click ? (<FaTimes/>) : (<FaBars/>)}
             </div>
         </div>
     )
