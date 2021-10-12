@@ -37,12 +37,14 @@ function About() {
                             <div><i className="fas fa-angle-right"></i> Node.js</div>
                             <div><i className="fas fa-angle-right"></i> React</div>
                             <div> <i className="fas fa-angle-right"></i> Wordpress</div>
+                            <div> <i className="fas fa-angle-right"></i> Dart</div>
                         </div>
                         <div className="row">
                             <div><i className="fas fa-angle-right"></i> Mongodb</div>
                             <div><i className="fas fa-angle-right"></i> React Native</div>
                             <div><i className="fas fa-angle-right"></i> Electron</div>
                             <div><i className="fas fa-angle-right"></i> Firebase</div>
+                            <div> <i className="fas fa-angle-right"></i> Flutter</div>
                         </div>
                     </div>
                 </div>
