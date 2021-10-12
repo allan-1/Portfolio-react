@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
 import {FaGithubSquare, FaLinkedin, FaTwitterSquare, FaEnvelope, FaTimes, FaBars} from 'react-icons/fa';
+import resume from './docs/resumee.pdf';
 
 function Nav() {
     const [click, setClick] = useState(false);
@@ -21,7 +22,8 @@ function Nav() {
                     <Link className="links" to="/contact">
                         <li onClick={closeMobileMenu}>Contact</li>
                     </Link>
-                    <li className="resume" onClick={closeMobileMenu}>Resume</li>
+                    <li className="resume" onClick={closeMobileMenu}><a target="_blank" rel="noreferrer" href={resume}>
+                       Resume</a></li>
                 </ul>
                 <div className="socials">
                     <ul>
