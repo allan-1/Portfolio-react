@@ -240,9 +240,10 @@ li, .logo{
   align-self: center;
 }
 .contactimg img{
-  height: 300px;
-  width: 300px;
-  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  border-radius: 13px;
+  object-fit: cover;
 }
 .name, .prof{
   text-align: center;
