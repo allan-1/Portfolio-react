@@ -320,6 +320,7 @@ li, .logo{
   }
   .imageme img{
     width: 100%;
+    border-radius: 8px;
   }
   .abouttext{
     margin: 0 2rem;

@@ -1,5 +1,5 @@
 import React from 'react'
-import Allan from '../images/photomee.png'
+import Allan from '../images/allan.jpg'
 
 function Contact() {
     return (
