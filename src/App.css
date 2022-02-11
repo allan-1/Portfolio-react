@@ -32,6 +32,10 @@ li, .logo{
 }
 .socials{
   margin-left: 1.3rem;
+  background-color: grey;
+  padding: 3px 30px;
+  border-radius: 20px;
+
 }
 .links, a{
   color: #fff;
@@ -45,7 +49,7 @@ li, .logo{
 }
 .resume{
   margin-top: 0;
-  padding: 0.5rem;
+  padding: 0.2rem;
   border: 1px solid #75b3be;
   width: 40%;
   text-align: center;
@@ -59,6 +63,7 @@ li, .logo{
   display: flex;
   justify-content: space-between;
   z-index: 0;
+  min-height: 100vh;
 }
 .main{
   margin: 20vh 0 0 5rem;;
@@ -71,7 +76,7 @@ li, .logo{
   bottom: 10vh;
   object-fit: contain;
 }
-.intro .text, .intro2 .text, .Bottom .free .txthead{
+.intro .text, .intro2 .text, .Bottom .free .txthead, .techstacks .intro, .aboutmeintro, .contsmes{
   font-family: 'Lobster Two', cursive;
   font-size: 4rem;
   color: #fff;
@@ -81,8 +86,11 @@ li, .logo{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.intro2 .text{
-  font-size: 2.5rem;
+.contsmes{
+  font-size: 30px;
+}
+.intro2 .text, .contsmes{
+  background-image: radial-gradient( circle 780.6px at 10% 20%,  rgba(133,255,189,1) 0%, rgba(255,251,125,1) 90.7% );
 }
 .tagline{
   margin-top: 1.3rem;
@@ -139,19 +147,25 @@ li, .logo{
   line-height: 1.4;
   margin-bottom: 1rem;
 }
-.abouttext .techstacks .itro{
-  margin-bottom: 0.7rem;
+.Tech{
+  color: #fff;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
-.abouttext .techstacks .techs{
+.techstacks .intro{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.techstacks .techs{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 50%;
 }
-.abouttext .techstacks .techs .row div{
+.techstacks .techs .row div{
   line-height: 1.4rem;
-}
-.abouttext .techstacks .techs i{
-  color: #7ee8fa;
+  font-size: 1rem;
 }
 
 /* bottomabout */
@@ -268,6 +282,60 @@ li, .logo{
   text-decoration: underline;
 }
 
+/* form */
+form{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.labels{
+  display: flex;
+  justify-content: space-around;
+}
+label{
+  font-size: 20px;
+}
+form input, form label, form button{
+  margin-bottom: 10px;
+}
+form input{
+  border: 2px solid gray;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 18px;
+  background: transparent;
+  margin: 0 10px;
+}
+form input:focus{
+  border-color: #7ee8fa;
+}
+textarea{
+  color: #fff;
+  background: none;
+  font-size: 16px;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border: 2px solid gray;
+  width: 30rem;
+  height: 10rem;
+}
+form button{
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  background-image: radial-gradient( circle 780.6px at 10% 20%,  rgba(133,255,189,1) 0%, rgba(255,251,125,1) 90.7% );;
+  width: 20rem;
+  color: black;
+}
+.center{
+  text-align: center;
+}
+
+
 /* media queries for nav and home components */
 @media screen and (max-width: 600px) {
   /* navbar */
@@ -338,5 +406,8 @@ li, .logo{
   }
   .Project .head .projectsIntro{
     text-align: center;
+  }
+  textarea{
+    width: 19rem;
   }
 }
