@@ -335,6 +335,42 @@ form button{
   text-align: center;
 }
 
+/* blog */
+.blogs{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.blogs .container{
+  width: 400px;
+  margin: 1rem;
+}
+.blogs .container .text-container{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.blogs .container .text-container .title{
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.blogs .container .text-container .desc{
+  margin-bottom: 0.7rem;
+}
+.blogs .container .text-container .autcal{
+  color: rgb(255, 215, 215);
+}
+.blogs .container img{
+  border-start-start-radius: 20px;
+  border-start-end-radius: 20px;
+  width: 400px;
+  height: 300px;
+}
+
 
 /* media queries for nav and home components */
 @media screen and (max-width: 600px) {

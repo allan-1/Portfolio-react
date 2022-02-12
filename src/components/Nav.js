@@ -7,6 +7,9 @@ import {
   FaTimes,
   FaBars,
 } from 'react-icons/fa';
+
+
+
 import resume from './docs/resumee.pdf';
 
 function Nav() {

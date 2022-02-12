@@ -1,6 +1,6 @@
 import React from 'react';
-// import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import './App.css';
+import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom'
 
 // components
 import Nav from './components/Nav';
@@ -8,6 +8,7 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Project from './components/Pages/Project';
 import Techs from './components/Pages/Techs';
+import Blog from './utils/blog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Techs />
       <Project />
+      <Blog />
     </div>
   );
 }
