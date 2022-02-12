@@ -7,9 +7,7 @@ import {
   FaTimes,
   FaBars,
 } from 'react-icons/fa';
-
-
-
+import { Link } from 'react-router-dom';
 import resume from './docs/resumee.pdf';
 
 function Nav() {
@@ -19,7 +17,9 @@ function Nav() {
 
   return (
     <div className="navbar">
+      <Link to='/'>
       <div className="logo">{'<Allan />'}</div>
+      </Link>
       <div className={click ? 'menu active' : 'menu'}>
         {/* <ul className="navvs">
           <li onClick={closeMobileMenu}>About</li>
@@ -35,6 +35,11 @@ function Nav() {
         </ul> */}
         <div className="socials">
           <ul>
+            <li className="resumes" onClick={closeMobileMenu}>
+              <Link to='/blog'>
+                <div>Blogs</div>
+              </Link>
+            </li>
             <li onClick={closeMobileMenu}>
               <a
                 target="_blank"

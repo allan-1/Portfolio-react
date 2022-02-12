@@ -4,21 +4,21 @@ import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom'
 
 // components
 import Nav from './components/Nav';
-import Home from './components/Pages/Home';
-import About from './components/Pages/About';
-import Project from './components/Pages/Project';
-import Techs from './components/Pages/Techs';
+import Homes from './components/Pages/Homes';
 import Blog from './utils/blog';
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <About />
-      <Techs />
-      <Project />
-      <Blog />
+     <Router>
+      <Nav/>
+        <Switch>
+          <Route path='/' exact component={Homes}/>
+          <Route path='/blog' component={Blog}/>
+        </Switch>
+      </Router>
+      {/* <Homes/>
+      <Blog/> */}
     </div>
   );
 }

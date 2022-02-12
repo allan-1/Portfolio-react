@@ -19,7 +19,8 @@ function Blog() {
 
   return <div className='blogs'>
       {blogs.map(blog => (
-          <div className='container'>
+        <a href={blog.link}>
+            <div className='container'>
               <div className="image-conatiner">
                   <img src={blog.thumbnail} alt={blog.title} />
               </div>
@@ -36,6 +37,7 @@ function Blog() {
                     </div>
               </div>
           </div>
+        </a>
       ))}
   </div>;
 }
