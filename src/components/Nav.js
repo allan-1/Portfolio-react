@@ -17,8 +17,8 @@ function Nav() {
 
   return (
     <div className="navbar">
-      <Link to='/'>
-      <div className="logo">{'<Allan />'}</div>
+      <Link to="/">
+        <div className="logo">{'<Allan />'}</div>
       </Link>
       <div className={click ? 'menu active' : 'menu'}>
         {/* <ul className="navvs">
@@ -36,11 +36,11 @@ function Nav() {
         <div className="socials">
           <ul>
             <li className="resumes" onClick={closeMobileMenu}>
-              <Link to='/blog'>
+              <Link to="/blog">
                 <div>Blogs</div>
               </Link>
             </li>
-            <li onClick={closeMobileMenu}>
+            {/* <li onClick={closeMobileMenu}>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -75,7 +75,7 @@ function Nav() {
               >
                 <FaTwitterSquare />
               </a>
-            </li>
+            </li> */}
             <li className="resume" onClick={closeMobileMenu}>
               <a target="_blank" rel="noreferrer" href={resume}>
                 Resume
