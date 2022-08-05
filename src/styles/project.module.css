@@ -1,0 +1,56 @@
+.project {
+  margin: 3rem 0;
+  padding: 3rem;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #4a5466;
+}
+.pdesc {
+  text-align: center;
+  color: #4a5466;
+  line-height: 3;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.pbox {
+  width: 450px;
+  box-shadow: 1px 3px 4px #4a5466;
+  margin-bottom: 2rem;
+}
+img {
+  object-fit: contain;
+  width: 450px;
+  text-align: center;
+}
+.pname,
+.desc {
+  text-align: center;
+  color: #4a5466;
+}
+.pname {
+  line-height: 3;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.link {
+  text-align: right;
+  padding: 1.5rem;
+}
+.link a {
+  background-color: #2dce89;
+  border-color: #2dce89;
+  text-align: center;
+  padding: 0.3rem 0.7rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: 30ms ease-in-out;
+}
+.link a:hover {
+  background-color: #219b66;
+}

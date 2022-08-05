@@ -1,21 +1,36 @@
 import React from 'react';
-import Hello from '../images/undraw_Hello_re_3evm.svg';
+import styles from '../../styles/home.module.css';
+import Lottie from 'react-lottie';
+import codingAnimation from '../lotties/codinglottie.json';
+import resume from '../docs/resumee.pdf';
 
 function Home() {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: codingAnimation,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
   return (
-    <div className="home">
-      <div className="main">
-        <div className="intro">
-          <div className="text">Hi I'm Allan</div>
+    <div className={styles.home}>
+      <div className={styles.main}>
+        <div className={styles.intro}>
+          <div className={styles.text}>Hi I'm Allan</div>
         </div>
-        <div className="intro2">
-          <div className="text">Mobile & <div>Web Developer</div></div>
+        <div className={styles.intro2}>
+          <div className={styles.text}>
+            I'm passionate Full Stack web developer having an experience of web
+            applications with Nodejs, React.js, Next.js and Mobile Development
+            development on Flutter, Dart and Kotlin
+          </div>
         </div>
-        <div className="button">
-          <a href="#bottom">Get In Touch</a>
+        <div className={styles.button}>
+          <a href={resume}>Resume</a>
         </div>
       </div>
-      <img className="image" src={Hello} alt="Hello" />
+      <Lottie options={defaultOptions} />
     </div>
   );
 }

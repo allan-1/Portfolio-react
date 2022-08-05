@@ -1,0 +1,50 @@
+.Tech {
+  color: #000;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.3rem;
+}
+.techstacks .intro {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: #4a5466;
+}
+.techs {
+  display: flex;
+  margin-top: 2.3rem;
+  justify-content: space-around;
+  padding: 2.5rem;
+}
+.stacktitle {
+  font-size: 1.4rem;
+  line-height: 3;
+  color: #4a5466;
+  font-weight: bold;
+  text-align: center;
+}
+.stackicons,
+.mstackicons,
+.cstackicons {
+  color: red;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: 1.55rem;
+  margin-bottom: 1.6rem;
+}
+.mstackicons {
+  color: #00c3ff;
+}
+.cstackicons {
+  color: blue;
+}
+.content {
+  line-height: 2.5;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4a5466;
+}

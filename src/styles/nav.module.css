@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.3rem;
+  color: #ffff;
+  font-size: 1.5rem;
+  z-index: 100;
+  background-image: url('/home/allan/Documents/New/myportfolio/frontend/src/components/images/Moon.svg');
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+li,
+.logo {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+.logo {
+  font-family: 'Dancing Script', cursive;
+}
+.menu {
+  display: flex;
+}
+.socials {
+  margin-left: 1.3rem;
+  padding: 3px 30px;
+  border-radius: 20px;
+}
+.links,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.links:hover {
+  color: #7ee8fa;
+}
+.links:focus {
+  color: #7ee8fa;
+}
+.resume {
+  margin-top: 0;
+  padding: 0.2rem;
+  border: 1px solid #75b3be;
+  text-align: center;
+  border-radius: 5px;
+  color: #7ee8fa;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1.3rem;
+  color: #ffff;
+  font-size: 1.5rem;
+  z-index: 100;
+}
+@media screen and (max-width: 600px) {
+  /* navbar */
+  .navbar {
+    padding: 0.5rem;
+  }
+  .menu {
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+    flex-direction: column;
+  }
+  .menu .navvs {
+    display: block;
+    text-align: center;
+  }
+  .menu .navvs li {
+    margin: 3rem;
+  }
+  .menu.active {
+    background-color: #111;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+    z-index: 100;
+    align-content: center;
+  }
+  .mobile-menu {
+    display: block;
+  }
+}

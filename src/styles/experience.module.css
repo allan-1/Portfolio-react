@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4a5466;
+  margin: 1rem 0;
+}
+.experiences {
+  display: flex;
+  justify-content: space-around;
+}
+.expbox {
+  width: 40%;
+  text-align: center;
+  box-shadow: 1px 3px 4px #4a5466;
+  padding: 1.3rem;
+  background-color: #fff;
+}
+.coname {
+  color: #4a5466;
+  font-weight: bold;
+  line-height: 2;
+}
+.image {
+  object-fit: contain;
+  height: 150px;
+}
+.position,
+.date {
+  color: #59709c;
+}
+.date {
+  margin-bottom: 1.2rem;
+}
+.description {
+  color: #4a5466;
+  text-align: left;
+}

@@ -1,0 +1,26 @@
+.contacts {
+  background-color: #32325d;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.contentssides {
+  color: #fff;
+}
+.reach {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.invit {
+  font-size: 1.2rem;
+  line-height: 3;
+}
+.location {
+  background-color: #fff;
+  color: #32325d;
+  width: 32%;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
