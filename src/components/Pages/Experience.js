@@ -9,7 +9,6 @@ function Experience() {
       <div className={styles.experiences}>
         {Experiences.map((exp) => (
           <div className={styles.expbox}>
-            <img src={exp.image} alt={exp.company} className={styles.image} />
             <div className={styles.coname}>{exp.company}</div>
             <div className={styles.position}>{exp.position}</div>
             <div className={styles.date}>{exp.dates}</div>

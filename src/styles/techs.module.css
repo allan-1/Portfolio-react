@@ -48,6 +48,12 @@
   text-align: center;
   color: #4a5466;
 }
+.lottie {
+  width: 550px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
 /* media queries */
 @media screen and (max-width: 600px) {
   .techs {

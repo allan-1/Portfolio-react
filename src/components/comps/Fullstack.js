@@ -26,27 +26,25 @@ function Fullstack() {
   return (
     <div>
       <div className={styles.techs}>
+        <div className={styles.lottie}>
+          <Lottie options={defaultOptions} />
+        </div>
         <div className={styles.row}>
-          <div className={styles.lottie}>
-            <Lottie options={defaultOptions} />
+          <div className={styles.stacktitle}> Full Stack Development</div>
+          <div className={styles.stackicons}>
+            <FaHtml5 />
+            <FaCss3 />
+            <FaJs />
+            <FaNodeJs />
+            <FaNpm />
+            <FaReact />
+            <FaDatabase />
           </div>
-          <div className={styles.row}>
-            <div className={styles.stacktitle}> Full Stack Development</div>
-            <div className={styles.stackicons}>
-              <FaHtml5 />
-              <FaCss3 />
-              <FaJs />
-              <FaNodeJs />
-              <FaNpm />
-              <FaReact />
-              <FaDatabase />
+          {FullstackContent.map((content) => (
+            <div className={styles.content}>
+              <FaCaretRight /> {content.content}
             </div>
-            {FullstackContent.map((content) => (
-              <div className={styles.content}>
-                <FaCaretRight /> {content.content}
-              </div>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
     </div>

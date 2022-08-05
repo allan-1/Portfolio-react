@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
-* {
-  overflow-x: hidden;
+@media screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+  }
 }

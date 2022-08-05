@@ -7,14 +7,15 @@
 }
 .experiences {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .expbox {
-  width: 40%;
+  width: 300px;
   text-align: center;
   box-shadow: 1px 3px 4px #4a5466;
   padding: 1.3rem;
   background-color: #fff;
+  margin: 2rem;
 }
 .coname {
   color: #4a5466;
