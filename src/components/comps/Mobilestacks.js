@@ -24,6 +24,11 @@ function MobileStacks() {
     <div>
       <div className={styles.techs}>
         <div className={styles.row}>
+          <div className={styles.lottie}>
+            <Lottie options={defaultOptions} />
+          </div>
+        </div>
+        <div className={styles.row}>
           <div className={styles.stacktitle}> Mobile Development</div>
           <div className={styles.mstackicons}>
             <FaAndroid />
@@ -36,9 +41,6 @@ function MobileStacks() {
               <FaCaretRight /> {content.content}
             </div>
           ))}
-        </div>
-        <div className={styles.row}>
-          <Lottie options={defaultOptions} width={500} />
         </div>
       </div>
     </div>

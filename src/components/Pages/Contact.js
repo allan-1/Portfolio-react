@@ -19,7 +19,7 @@ function Contact() {
           <ul>
             {Links.map((link) => (
               <div>
-                <li className={styles.links}>
+                <li className={styles.linkicons}>
                   <a
                     target="_blank"
                     rel="noreferrer"

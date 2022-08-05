@@ -48,3 +48,31 @@
   text-align: center;
   color: #4a5466;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .techs {
+    display: block;
+    margin-top: 0.5rem;
+  }
+  .techstacks .intro {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  .stacktitle {
+    font-size: 1.5rem;
+    line-height: 3;
+    color: #4a5466;
+  }
+  .content {
+    line-height: 1.5;
+    font-size: 1rem;
+    text-align: center;
+    color: #4a5466;
+  }
+  .lottie {
+    width: 350px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+}

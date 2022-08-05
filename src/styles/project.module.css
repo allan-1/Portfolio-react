@@ -54,3 +54,23 @@ img {
 .link a:hover {
   background-color: #219b66;
 }
+@media screen and (max-width: 600px) {
+  .pbox {
+    width: 350px;
+    box-shadow: 1px 5px 5px #4a5466;
+  }
+  .pbox img {
+    width: 350px;
+  }
+  .pdesc {
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+  .desc {
+    text-align: left;
+    padding: 0.5rem;
+  }
+  .link {
+    text-align: left;
+  }
+}

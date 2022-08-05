@@ -26,8 +26,8 @@ function Cloudstack() {
   return (
     <div>
       <div className={styles.techs}>
-        <div className={styles.row}>
-          <Lottie options={defaultOptions} width={600} />
+        <div className={styles.lottie}>
+          <Lottie options={defaultOptions} />
         </div>
         <div className={styles.row}>
           <div className={styles.stacktitle}> Cloud Infrastructure</div>

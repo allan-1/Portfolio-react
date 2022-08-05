@@ -36,3 +36,19 @@
   color: #4a5466;
   text-align: left;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .experiences {
+    flex-wrap: wrap;
+  }
+  .expbox {
+    width: 80%;
+    box-shadow: 1px 5px 5px #4a5466;
+    padding: 1.3rem;
+    margin-bottom: 0.6rem;
+    text-align: center;
+  }
+  .image {
+    display: none;
+  }
+}

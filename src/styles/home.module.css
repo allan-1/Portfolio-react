@@ -47,3 +47,13 @@
   transition: all 0.3s ease-in-out;
   color: #fff;
 }
+/* media queries */
+@media screen and (max-width: 600px) {
+  .home {
+    flex-wrap: wrap;
+  }
+  .main {
+    margin: 0vh 2rem;
+    z-index: 80;
+  }
+}
