@@ -4,6 +4,7 @@
   justify-content: space-between;
   z-index: 0;
   min-height: 100vh;
+  background-image: url('../components/images/Moon.svg');
 }
 .main {
   margin: 20vh 0 0 5rem;

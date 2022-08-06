@@ -1,0 +1,33 @@
+.backdropStyle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #32325d;
+  padding: 10px;
+  z-index: 100;
+}
+.modalStyle {
+  background-color: '#fff';
+  border-radius: 5px;
+  min-width: 100vw;
+  min-height: 10vh;
+  margin: 0 auto;
+  padding: 30px;
+}
+.closebtn {
+  background: none;
+  border: none;
+  color: #fff;
+  position: absolute;
+  top: 19px;
+  right: 19px;
+  font-size: 20px;
+}
+.logo {
+  cursor: pointer;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 1.2rem;
+  border-bottom: 1px white solid;
+}

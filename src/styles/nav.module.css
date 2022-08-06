@@ -6,7 +6,7 @@
   padding: 0.5rem 1.3rem;
   color: #ffff;
   font-size: 1.5rem;
-  z-index: 100;
+  background-image: url('../components/images/Moon.svg');
 }
 ul {
   list-style: none;
@@ -49,11 +49,19 @@ a {
   border-radius: 5px;
   color: #7ee8fa;
 }
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 1.3rem;
-  color: #ffff;
-  font-size: 1.5rem;
-  z-index: 100;
-} */
+.modalbtn {
+  color: #fff;
+  background: none;
+  border: none;
+  font-size: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .modalbtn {
+    display: block;
+  }
+  .socials {
+    display: none;
+  }
+}

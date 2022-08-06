@@ -128,26 +128,32 @@ const Links = [
   {
     icons: FaEnvelope,
     url: 'mailto:amuturi01@gmail.com',
+    name: 'mail',
   },
   {
     icons: FaInstagram,
     url: 'https://www.instagram.com/a0x001/',
+    name: 'Instagram',
   },
   {
     icons: FaGithubSquare,
     url: 'https://github.com/Allan-1',
+    name: 'Github',
   },
   {
     icons: FaLinkedin,
     url: 'https://www.linkedin.com/in/allan-maina-ab78011aa/',
+    name: 'Linkedin',
   },
   {
     icons: FaTwitterSquare,
     url: 'https://twitter.com/a0x001',
+    name: 'Twitter',
   },
   {
     icons: FaMedium,
     url: 'https://medium.com/@allanmuturi',
+    name: 'Medium',
   },
 ];
 
