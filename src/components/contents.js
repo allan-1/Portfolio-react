@@ -5,6 +5,7 @@ import boran from './images/boranafrica.png';
 import ipadress from './images/ipaddress.png';
 import estaltech from './images/estaltech.png';
 import meety from './images/meety.png';
+import strapi from './images/strapi.png';
 
 // links import
 import {
@@ -88,6 +89,13 @@ const PersonalProjects = [
     images: movies,
     description: 'A movie listing app made with Reactjs and tmdb api.',
     link: 'https://allanmovies.vercel.app/',
+  },
+  {
+    name: 'Shopit',
+    images: strapi,
+    description:
+      'An Ecommerce website built using Strapi and NextJs and GraphQl',
+    link: 'https://github.com/Allan-1/shopit',
   },
   {
     name: 'Meety',
