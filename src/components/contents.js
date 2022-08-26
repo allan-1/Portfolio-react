@@ -15,6 +15,7 @@ import {
   FaGithubSquare,
   FaLinkedin,
   FaMedium,
+  FaCode,
 } from 'react-icons/fa';
 
 const FullstackContent = [
@@ -133,6 +134,11 @@ const PersonalProjects = [
 ];
 
 const Links = [
+  {
+    icons: FaCode,
+    url: '/codes',
+    name: 'codes',
+  },
   {
     icons: FaEnvelope,
     url: 'mailto:amuturi01@gmail.com',
