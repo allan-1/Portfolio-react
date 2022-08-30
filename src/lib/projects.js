@@ -11,6 +11,7 @@ import chatcord from '../components/images/chatcord.png';
 import todoapp from '../components/images/todoapp.jpeg';
 import rpc from '../components/images/rpc.png';
 import recipeapp from '../components/images/recipesapp.jpg';
+import countries from '.../components/images/countries.png';
 
 export const PersonalProjects = [
   {
@@ -18,6 +19,12 @@ export const PersonalProjects = [
     images: movies,
     description: 'A movie listing app made with Reactjs and tmdb api.',
     link: 'https://allanmovies.vercel.app/',
+  },
+  {
+    name: 'Countries',
+    images: countries,
+    description: 'A countries listing web app built with nextjs',
+    link: 'https://github.com/Allan-1/Next-Countries',
   },
   {
     name: 'Recipe App',
