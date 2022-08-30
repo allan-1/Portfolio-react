@@ -11,7 +11,7 @@ import chatcord from '../components/images/chatcord.png';
 import todoapp from '../components/images/todoapp.jpeg';
 import rpc from '../components/images/rpc.png';
 import recipeapp from '../components/images/recipesapp.jpg';
-import countries from '.../components/images/countries.png';
+import countries from '../components/images/countries.png';
 
 export const PersonalProjects = [
   {
