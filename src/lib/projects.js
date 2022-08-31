@@ -12,8 +12,16 @@ import todoapp from '../components/images/todoapp.jpeg';
 import rpc from '../components/images/rpc.png';
 import recipeapp from '../components/images/recipesapp.jpg';
 import countries from '../components/images/countries.png';
+import invoice from '../components/images/invoice.png';
 
 export const PersonalProjects = [
+  {
+    name: 'Invoice',
+    image: invoice,
+    description:
+      'A invoice webapp created using Nextjs currently in development. ',
+    link: 'https://github.com/Allan-1/Invoice-Next',
+  },
   {
     name: 'Movies Db',
     images: movies,
