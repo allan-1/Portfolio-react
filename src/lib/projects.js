@@ -17,7 +17,7 @@ import invoice from '../components/images/invoice.png';
 export const PersonalProjects = [
   {
     name: 'Invoice',
-    image: invoice,
+    images: invoice,
     description:
       'A invoice webapp created using Nextjs currently in development. ',
     link: 'https://github.com/Allan-1/Invoice-Next',
