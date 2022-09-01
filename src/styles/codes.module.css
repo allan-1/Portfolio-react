@@ -57,19 +57,29 @@
     margin: 0.5rem 0;
   }
   .item {
-    width: 400px;
+    width: 310px;
   }
   .codeimg img {
-    width: 265px;
+    width: 305px;
     height: 158px;
-  }
-  .codedesc,
-  .codetitle {
-    width: 260px;
   }
   .search input {
     width: 86%;
     font-size: 1rem;
     outline: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .codeitems {
+    grid-template-columns: repeat(2, auto);
+  }
+  .item {
+    margin: 00.5rem 0.2rem;
+    width: 310px;
+  }
+  .codeimg img {
+    width: 305px;
+    height: 158px;
   }
 }
