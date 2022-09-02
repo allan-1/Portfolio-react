@@ -1,7 +1,7 @@
 import image from './images/pricelessit.png';
 import movies from './images/moviedb.png';
 import oyawi from './images/oyawiorgs.png';
-import boran from './images/boranafrica.png';
+import chatcord from './images/chatcord.png';
 import ipadress from './images/ipaddress.png';
 import estaltech from './images/estaltech.png';
 import meety from './images/meety.png';
@@ -126,10 +126,10 @@ const PersonalProjects = [
     link: 'https://allanipadress.vercel.app',
   },
   {
-    name: 'Boran Africa Tours',
-    images: boran,
-    description: 'A tours website made with wordpress and php',
-    link: 'https://boranafricatours.co.ke/',
+    name: 'Chatcord',
+    images: chatcord,
+    description: 'A chatting room created using websockets and javascript',
+    link: 'https://allanchat.herokuapp.com',
   },
 ];
 
@@ -156,7 +156,7 @@ const Links = [
   },
   {
     icons: FaLinkedin,
-    url: 'https://www.linkedin.com/in/allan-maina-ab78011aa/',
+    url: 'https://www.linkedin.com/in/allan-maina/',
     name: 'Linkedin',
   },
   {
