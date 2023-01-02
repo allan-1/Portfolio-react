@@ -67,10 +67,17 @@ const CloudContent = [
 
 const Experiences = [
   {
+    company: 'Bharathbrands PVT Limited',
+    image: image,
+    position: 'Software Developer',
+    dates: 'September 2022 - Date',
+    description: 'I worked as a software developer focusing mainly on mobile development but also involved in backend development in Django and Flask.'
+  },
+  {
     company: 'Priceless IT solutions',
     image: image,
     position: 'Mobile Developer',
-    dates: 'April 2022 - Date',
+    dates: 'April 2022 - August 2022',
     description:
       'I worked as a mobile developer designing mobile application and building both crossplatform and native mobile applications',
   },
