@@ -14,12 +14,11 @@
   line-height: 3;
 }
 .projects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
 }
 .pbox {
-  width: 450px;
+  width: 550px;
   box-shadow: 1px 3px 4px #4a5466;
   margin-bottom: 2rem;
 }
@@ -56,7 +55,7 @@ img {
 }
 @media screen and (max-width: 600px) {
   .pbox {
-    width: 350px;
+    /* width: 350px; */
     box-shadow: 1px 5px 5px #4a5466;
   }
   .pbox img {
@@ -72,5 +71,8 @@ img {
   }
   .link {
     text-align: left;
+  }
+  .projects {
+    grid-template-columns: repeat(1, auto);
   }
 }
